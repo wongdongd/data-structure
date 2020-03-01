@@ -1,7 +1,6 @@
 package datastruct;
 
-import java.util.ArrayList;
-import java.util.Arrays;
+import java.util.*;
 
 /**
  * Resizable-array implementation of the List interface. Implements all optional list operations, and permits all elements,

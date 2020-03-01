@@ -127,11 +127,7 @@ public class RBTree {
         RBNode x = root;
         while (x!=null){
             parent = x;
-            if (x.data > node.data){
-                x = x.left;
-            }else {
-                x = x.right;
-            }
+            ;
         }
         node.parent = parent;//找到的插入位置
 
